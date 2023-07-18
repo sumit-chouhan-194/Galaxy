@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 :root {
   --bg-darkpurple: #1c0d38;
   --bg-lightpurple: #6022ea;
@@ -70,13 +68,27 @@
 .txt_offwhite {
   color: var(--clr-off-white);
 }
-.fs_sm{font-size: var(--fs-sm);}
-.fs_md{font-size: var(--fs-md);}
-.fs_lg{font-size: var(--fs-lg);}
-.fs_xl{font-size: var(--fs-xl);}
-.fs_2xl{font-size: var(--fs-2xl);}
-.fs_3xl{font-size: var(--fs-3xl);}
-.fs_4xl{font-size: var(--fs-4xl);}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
 @media (min-width: 576px) {
   :root {
     --fs-md: 20px;
