@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --bg-darkpurple: #1c0d38;
+  --bg-lightpurple: #6022ea;
+  --bg-white: #fff;
+  --bg-normel-purple: rgb(96, 34, 234, 0.2);
+  --bg-blue-200: #411bbb;
+  --bg-blue-100: #2a27bf;
+  --bg-purple-200: #76198d;
+  --bg-purple-100: #8f2dab;
+  --bg-light-pink: #fb5ef8;
+  --bg-dark-pink: #e323e1;
+  --clr-white: #fff;
+  --clr-black: #0000;
+  --clr-off-white: rgb(186, 177, 202);
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 20px;
+  --fs-xl: 22px;
+  --fs-2xl: 26px;
+  --fs-3xl: 30px;
+  --fs-4xl: 32px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ff_railway {
+  font-family: "Raleway";
+}
+.ff_fira {
+  font-family: "Fira Sans";
+}
+.bg_darkpurple {
+  background-color: var(--bg-darkpurple);
+}
+.bg_lightpurple {
+  background-color: var(--bg-lightpurple);
+}
+.bg_white {
+  background-color: var(--bg-white);
+}
+.bg_normel_purple {
+  background-color: var(--bg-normel-purple);
+}
+.bg_blue_100 {
+  background-color: var(--bg-blue-100);
+}
+.bg_blue_200 {
+  background-color: var(--bg-blue-200);
+}
+.bg_purple_100 {
+  background-color: var(--bg-purple-100);
+}
+.bg_purple_200 {
+  background-color: var(--bg-purple-200);
+}
+.bg_lightpink {
+  background-color: var(--bg-light-pink);
+}
+.bg_darkpink {
+  background-color: var(--bg-dark-pink);
+}
+.txt_white {
+  color: var(--clr-white);
+}
+.txt_black {
+  color: var(--clr-black);
+}
+.txt_offwhite {
+  color: var(--clr-off-white);
+}
+@media (min-width: 576px) {
+  :root {
+    --fs-md: 20px;
+    --fs-lg: 22px;
+    --fs-xl: 26px;
+    --fs-2xl: 30px;
+    --fs-3xl: 35px;
+    --fs-4xl: 40px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --fs-lg: 24px;
+    --fs-xl: 28px;
+    --fs-2xl: 35px;
+    --fs-3xl: 40px;
+    --fs-4xl: 50px;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --fs-md: 22px;
+    --fs-lg: 25px;
+    --fs-xl: 30px;
+    --fs-2xl: 40px;
+    --fs-3xl: 60px;
+    --fs-4xl: 80px;
+  }
 }
