@@ -4,9 +4,12 @@ const MyNav = () => {
   return (
     <>
       <nav className="bg_darkpurple">
-        <div className="container">
+        <div className="container mx-auto">
           <div>
             <img className="w-auto" src={logo} alt="logo" />
+          </div>
+          <div>
+
           </div>
         </div>
       </nav>
